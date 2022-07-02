@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.zeros;
+})();
 })();
 </script>
 ```
@@ -117,6 +119,7 @@ The function accepts the following arguments:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Get a list of data types:
 var dt = dtypes();
@@ -129,6 +132,7 @@ for ( i = 0; i < dt.length; i++ ) {
     console.log( arr.data );
 }
 
+})();
 })();
 </script>
 </body>
@@ -224,9 +228,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-zeros/main/LICENSE
 
-[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/stdlib/tree/umd/tree/umd
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/stdlib/tree/umd/tree/umd
 
 </section>
 
