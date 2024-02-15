@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-zeros/tags). For example,
+
+```javascript
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros@v0.2.0-esm/index.mjs';
 ```
 
@@ -103,7 +108,7 @@ The function accepts the following arguments:
 <script type="module">
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
-import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros@v0.2.0-esm/index.mjs';
+import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-zeros@esm/index.mjs';
 
 // Get a list of data types:
 var dt = dtypes();
