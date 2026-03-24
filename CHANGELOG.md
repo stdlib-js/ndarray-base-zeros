@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b2562b0`](https://github.com/stdlib-js/stdlib/commit/b2562b0ba49ec1c6d05809c2e2bbb725a9fb38a5) - **docs:** update example _(by Athan Reines)_
 -   [`9dbe58b`](https://github.com/stdlib-js/stdlib/commit/9dbe58b69db750318766dc0b96813199560135f1) - **docs:** update examples and docs to accommodate dtype instances _(by Athan Reines)_
 
 </details>
