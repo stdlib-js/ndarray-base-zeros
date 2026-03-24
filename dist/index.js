@@ -1,5 +1,19 @@
-"use strict";var f=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var v=f(function(x,s){
-var l=require('@stdlib/ndarray-base-shape2strides/dist'),o=require('@stdlib/ndarray-base-strides2offset/dist'),m=require('@stdlib/ndarray-base-buffer/dist'),q=require('@stdlib/error-tools-fmtprodmsg/dist'),c=require('@stdlib/ndarray-base-ctor/dist'),d=require('@stdlib/ndarray-base-numel/dist');function g(e,r,u){var n,a,t,i;if(n=r.length,n>0?(t=d(r),i=l(r,u)):(t=1,i=[0]),a=m(e,t),a===null)throw new TypeError(q('0jl5K',e));return new c(e,a,r,i,o(r,i),u)}s.exports=g
-});var b=v();module.exports=b;
-/** @license Apache-2.0 */
+"use strict";var l=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var v=l(function(w,s){"use strict";var f=require("@stdlib/ndarray-base-shape2strides"),m=require("@stdlib/ndarray-base-buffer"),o=require("@stdlib/ndarray-base-ctor"),q=require("@stdlib/ndarray-base-numel"),c=require("@stdlib/string-format");function g(e,r,t){var n,a,i,u;if(n=r.length,n>0?(i=q(r),u=f(r,t)):(i=1,u=[0]),a=m(e,i),a===null)throw new TypeError(c("invalid argument. First argument must be a recognized data type. Value: `%s`.",e));return new o(e,a,r,u,0,t)}s.exports=g});var b=v();module.exports=b;
+/**
+* @license Apache-2.0
+*
+* Copyright (c) 2022 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
 //# sourceMappingURL=index.js.map
