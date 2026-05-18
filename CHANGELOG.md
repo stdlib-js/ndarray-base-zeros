@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-10)
+## Unreleased (2026-05-18)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`9330de7`](https://github.com/stdlib-js/stdlib/commit/9330de700a97e4c3cdd6c0e4558f26e1e757178f) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11430)](https://github.com/stdlib-js/stdlib/pull/11430) _(by Karan Anand, Athan Reines)_
 -   [`ae72f8e`](https://github.com/stdlib-js/stdlib/commit/ae72f8e7910cbfd1a0204bedd7f46bff23c74aa0) - **test:** use corrected expected type for `complex64` tests _(by Athan Reines)_
 -   [`5173151`](https://github.com/stdlib-js/stdlib/commit/5173151500a9e3781c617de1037ba92f1c860d79) - **style:** remove empty line _(by Athan Reines)_
 -   [`b2562b0`](https://github.com/stdlib-js/stdlib/commit/b2562b0ba49ec1c6d05809c2e2bbb725a9fb38a5) - **docs:** update example _(by Athan Reines)_
@@ -27,9 +28,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 
 </section>
 
