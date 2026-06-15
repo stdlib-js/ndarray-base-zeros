@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-21)
+## Unreleased (2026-06-15)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0293981`](https://github.com/stdlib-js/stdlib/commit/0293981bc2e4dcdf3ec3f570c9326c049fe40b2c) - **docs:** replace \"array\" with \"ndarray\" in various type declarations [(#12828)](https://github.com/stdlib-js/stdlib/pull/12828) _(by Philipp Burckhardt)_
 -   [`9330de7`](https://github.com/stdlib-js/stdlib/commit/9330de700a97e4c3cdd6c0e4558f26e1e757178f) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11430)](https://github.com/stdlib-js/stdlib/pull/11430) _(by Karan Anand, Athan Reines)_
 -   [`ae72f8e`](https://github.com/stdlib-js/stdlib/commit/ae72f8e7910cbfd1a0204bedd7f46bff23c74aa0) - **test:** use corrected expected type for `complex64` tests _(by Athan Reines)_
 -   [`5173151`](https://github.com/stdlib-js/stdlib/commit/5173151500a9e3781c617de1037ba92f1c860d79) - **style:** remove empty line _(by Athan Reines)_
@@ -28,10 +29,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
