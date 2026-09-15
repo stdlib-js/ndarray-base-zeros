@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-19)
+## Unreleased (2026-09-15)
+
+<section class="features">
+
+### Features
+
+-   [`e28d7ee`](https://github.com/stdlib-js/stdlib/commit/e28d7ee417cd3699f300aa98a85cecce04f7d0ef) - add float16 dtype support to `ndarray/base/zeros` [(#15225)](https://github.com/stdlib-js/stdlib/pull/15225)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`e28d7ee`](https://github.com/stdlib-js/stdlib/commit/e28d7ee417cd3699f300aa98a85cecce04f7d0ef) - **feat:** add float16 dtype support to `ndarray/base/zeros` [(#15225)](https://github.com/stdlib-js/stdlib/pull/15225) _(by Samarth Kolarkar)_
 -   [`0293981`](https://github.com/stdlib-js/stdlib/commit/0293981bc2e4dcdf3ec3f570c9326c049fe40b2c) - **docs:** replace \"array\" with \"ndarray\" in various type declarations [(#12828)](https://github.com/stdlib-js/stdlib/pull/12828) _(by Philipp Burckhardt)_
 -   [`9330de7`](https://github.com/stdlib-js/stdlib/commit/9330de700a97e4c3cdd6c0e4558f26e1e757178f) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11430)](https://github.com/stdlib-js/stdlib/pull/11430) _(by Karan Anand, Athan Reines)_
 -   [`ae72f8e`](https://github.com/stdlib-js/stdlib/commit/ae72f8e7910cbfd1a0204bedd7f46bff23c74aa0) - **test:** use corrected expected type for `complex64` tests _(by Athan Reines)_
@@ -29,11 +40,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
+-   Samarth Kolarkar
 
 </section>
 
